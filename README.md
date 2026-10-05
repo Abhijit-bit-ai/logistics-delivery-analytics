@@ -75,6 +75,34 @@ The project uses the Zomato Delivery Operations Analytics Dataset.
 - [ ] Week 3 - Data Analysis and Visualization
 - [ ] Week 4 - Predictive Modeling and Optimization
 
+
+## Week 2 – Data Cleaning and Preprocessing
+
+During Week 2, the raw Zomato delivery dataset was cleaned and prepared for further exploratory data analysis and modeling.
+
+### Tasks Completed
+- Inspected dataset structure, data types, and missing values
+- Checked and handled missing values across important features
+- Validated delivery partner age and rating data
+- Cleaned categorical variables such as weather, traffic density, city, festival, and multiple deliveries
+- Converted `Order_Date` into datetime format
+- Investigated inconsistent order and pickup time formats
+- Handled both standard time values and Excel fractional-day time values
+- Handled special time values such as `24:05`, `24:10`, and `24:15`
+- Created `Order_DateTime` and `Pickup_DateTime`
+- Engineered `Pickup_Delay_Minutes`
+- Checked duplicate records and invalid numerical values
+- Validated pickup delay and delivery time
+- Exported the final cleaned dataset
+
+### Week 2 Deliverables
+- `Week_2_Data_Cleaning.ipynb`
+- `Zomato_Delivery_Cleaned.csv`
+
+The cleaned dataset is now ready for exploratory data analysis and visualization in the next stage of the project.
+
+
+
 ## Author
 
 **Abhijit Das**  
