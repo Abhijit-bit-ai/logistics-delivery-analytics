@@ -2,6 +2,13 @@
 
 An end-to-end logistics data analytics project focused on understanding delivery performance, identifying factors associated with delivery time, and developing data-driven operational insights.
 
+## Current Progress
+
+- [x] Week 1 - Strategic Planning and Data Acquisition
+- [x] Week 2 - Data Cleaning and Preprocessing
+- [x] Week 3 - Data Analysis and Visualization
+- [ ] Week 4 - Predictive Modeling and Optimization
+
 ## Project Objective
 
 The main objective of this project is to analyze delivery operations and understand how factors such as distance, traffic, weather, vehicle type, city, and delivery-person characteristics are associated with delivery time.
@@ -68,12 +75,7 @@ The project uses the Zomato Delivery Operations Analytics Dataset.
 - Power BI
 - Git & GitHub
 
-## Current Progress
 
-- [x] Week 1 - Strategic Planning and Data Acquisition
-- [ ] Week 2 - Data Cleaning and Preprocessing
-- [ ] Week 3 - Data Analysis and Visualization
-- [ ] Week 4 - Predictive Modeling and Optimization
 
 
 ## Week 2 – Data Cleaning and Preprocessing
@@ -101,6 +103,37 @@ During Week 2, the raw Zomato delivery dataset was cleaned and prepared for furt
 
 The cleaned dataset is now ready for exploratory data analysis and visualization in the next stage of the project.
 
+
+## Week 3 – Advanced Data Analysis and Visualization
+
+Week 3 focused on exploratory data analysis (EDA), statistical analysis, and visualization of the cleaned logistics delivery dataset.
+
+### Analysis Performed
+- Delivery time distribution and descriptive statistics
+- Road traffic density vs delivery time
+- Weather conditions vs delivery time
+- Multiple deliveries vs delivery time
+- Festival vs non-festival delivery performance
+- Delivery person ratings analysis
+- Vehicle condition analysis
+- Correlation analysis of numerical variables
+
+### Key Insights
+- Average delivery time: 26.29 minutes
+- Traffic jams showed an average delivery time of 31.18 minutes compared with 21.27 minutes under low traffic.
+- Festival deliveries averaged 45.52 minutes compared with 25.98 minutes for non-festival deliveries.
+- Three multiple deliveries were associated with an average delivery time of 47.82 minutes.
+- Multiple deliveries had a +0.38 correlation with delivery time.
+- Delivery-person ratings had a -0.34 correlation with delivery time.
+
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Jupyter Notebook
+
+### Week 3 Deliverables
+- Week 3 EDA and Visualization Jupyter Notebook
+- Advanced Data Analysis and Visualization Report
+- Statistical analysis and eight data visualizations
+- Operational findings and recommendations
 
 
 ## Author
