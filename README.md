@@ -7,7 +7,7 @@ An end-to-end logistics data analytics project focused on understanding delivery
 - [x] Week 1 - Strategic Planning and Data Acquisition
 - [x] Week 2 - Data Cleaning and Preprocessing
 - [x] Week 3 - Data Analysis and Visualization
-- [ ] Week 4 - Predictive Modeling and Optimization
+- [x] Week 4 - Predictive Modeling and Optimization
 
 ## Project Objective
 
@@ -134,7 +134,43 @@ Python, Pandas, NumPy, Matplotlib, Jupyter Notebook
 - Advanced Data Analysis and Visualization Report
 - Statistical analysis and eight data visualizations
 - Operational findings and recommendations
+## Week 4 – Predictive Modeling and Optimization
 
+Week 4 focused on building and evaluating machine learning models for predicting logistics delivery time.
+
+### Work Completed
+- Selected relevant features for delivery-time prediction
+- Handled missing values and prepared numerical and categorical features
+- Applied StandardScaler and One-Hot Encoding
+- Created an 80:20 train-test split
+- Built Linear Regression, Decision Tree, and Random Forest models
+- Evaluated models using MAE, RMSE, and R² Score
+- Compared actual and predicted delivery times
+- Analysed Random Forest feature importance
+- Generated sample delivery-time predictions
+- Performed hypothetical logistics scenario forecasting
+- Developed operational optimization recommendations
+
+### Model Performance
+
+| Model | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Linear Regression | 5.05 | 6.28 | 0.55 |
+| Decision Tree | 4.08 | 5.20 | 0.69 |
+| Random Forest | 3.95 | 5.07 | 0.71 |
+
+### Best Model
+Random Forest achieved the best overall performance with an MAE of approximately 3.95 minutes, RMSE of 5.07 minutes, and R² score of approximately 0.71.
+
+### Tools Used
+Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook
+
+### Week 4 Deliverables
+- Week 4 Predictive Modeling Jupyter Notebook
+- Predictive Modeling and Optimization Report
+- Model comparison and evaluation
+- Feature importance analysis
+- Logistics optimization recommendations
 
 ## Author
 
